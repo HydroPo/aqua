@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HydraPo — The Future of Food is Here</title>
+  <meta name="description"
+    content="HydraPo is a student-led hydroponic startup reimagining how cities grow food. 90% less water, zero pesticides, powered by the next generation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-mark">
+          <div class="logo-ring"></div>
+          <div class="logo-dot-inner"></div>
+        </div>
+        <span class="logo-text">HydraPo</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#story">Story</a></li>
+        <li><a href="#how-it-works">Science</a></li>
+        <li><a href="#grow">Crops</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact" class="nav-cta" id="nav-cta-btn">Partner With Us →</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-bg-img"></div>
+    <div class="hero-content" id="hero-content">
+      <div class="hero-eyebrow reveal-up">
+        <span class="eyebrow-dot"></span>
+        <span>Student-Led Innovation · Kazakhstan · Est. 2025</span>
+      </div>
+      <h1 class="hero-headline reveal-up">
+        The Future<br class="show-md" /> of Food<br />
+        <span class="gradient-text typed-text" id="typed-headline">Grows Here.</span>
+      </h1>
+      <p class="hero-sub reveal-up">
+        We are HydraPo — growing pesticide-free food with 90% less water.<br class="hide-mobile" />
+        Born in a school lab. Built to scale globally.
+      </p>
+      <div class="hero-ctas reveal-up">
+        <a href="#story" class="btn btn-primary" id="hero-join">
+          <span class="btn-icon">🌱</span> Join the Movement
+        </a>
+        <a href="#contact" class="btn btn-ghost" id="hero-partner">Partner With Us →</a>
+      </div>
+      <div class="hero-metrics reveal-up">
+        <div class="hm-item">
+          <span class="hm-val">90%</span>
+          <span class="hm-label">Less Water</span>
+        </div>
+        <div class="hm-sep"></div>
+        <div class="hm-item">
+          <span class="hm-val">0</span>
+          <span class="hm-label">Pesticides</span>
+        </div>
+        <div class="hm-sep"></div>
+        <div class="hm-item">
+          <span class="hm-val">10+</span>
+          <span class="hm-label">Families/mo</span>
+        </div>
+        <div class="hm-sep"></div>
+        <div class="hm-item">
+          <span class="hm-val">2025</span>
+          <span class="hm-label">Founded</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-bar"></div>
+    </div>
+    <div class="hero-img-strip">
+      <div class="his-item"><img src="assets/vertical_system.jpg" alt="Vertical system" /></div>
+      <div class="his-item"><img src="assets/hydro2.jpg" alt="Grow room" /></div>
+      <div class="his-item"><img src="assets/students_teaching.jpg" alt="Students learning" /></div>
+    </div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>90% LESS WATER</span><span class="m-dot">●</span>
+      <span>ZERO PESTICIDES</span><span class="m-dot">●</span>
+      <span>STUDENT-LED</span><span class="m-dot">●</span>
+      <span>LOCAL FOOD SYSTEMS</span><span class="m-dot">●</span>
+      <span>HYDRAPONIC INNOVATION</span><span class="m-dot">●</span>
+      <span>KAZAKHSTAN 2025</span><span class="m-dot">●</span>
+      <span>90% LESS WATER</span><span class="m-dot">●</span>
+      <span>ZERO PESTICIDES</span><span class="m-dot">●</span>
+      <span>STUDENT-LED</span><span class="m-dot">●</span>
+      <span>LOCAL FOOD SYSTEMS</span><span class="m-dot">●</span>
+      <span>HYDRAPONIC INNOVATION</span><span class="m-dot">●</span>
+      <span>KAZAKHSTAN 2025</span><span class="m-dot">●</span>
+    </div>
+  </div>
+
+  <!-- IMPACT STATS -->
+  <section class="impact" id="impact">
+    <div class="container">
+      <div class="impact-header">
+        <div class="section-label reveal-up">By the Numbers</div>
+        <h2 class="section-title reveal-up">Impact That <span class="gradient-text">Matters</span></h2>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card reveal-up">
+          <div class="stat-glow"></div>
+          <div class="stat-icon-wrap">💧</div>
+          <div class="stat-number"><span class="counter" data-target="90">0</span>%</div>
+          <div class="stat-label">Less Water Used</div>
+          <div class="stat-desc">Compared to traditional soil farming. Every drop counts.</div>
+          <div class="stat-prog">
+            <div class="stat-fill" style="--fill:90%"></div>
+          </div>
+        </div>
+        <div class="stat-card reveal-up">
+          <div class="stat-glow"></div>
+          <div class="stat-icon-wrap">🌿</div>
+          <div class="stat-number"><span class="counter" data-target="0">0</span></div>
+          <div class="stat-label">Pesticides Used</div>
+          <div class="stat-desc">100% clean produce. No chemicals, ever. Pure and safe.</div>
+          <div class="stat-prog">
+            <div class="stat-fill" style="--fill:100%"></div>
+          </div>
+        </div>
+        <div class="stat-card reveal-up">
+          <div class="stat-glow"></div>
+          <div class="stat-icon-wrap">🌍</div>
+          <div class="stat-number"><span class="counter" data-target="60">0</span>%</div>
+          <div class="stat-label">CO₂ Reduction</div>
+          <div class="stat-desc">Local production eliminates long-haul food transport emissions.</div>
+          <div class="stat-prog">
+            <div class="stat-fill" style="--fill:60%"></div>
+          </div>
+        </div>
+        <div class="stat-card reveal-up">
+          <div class="stat-glow"></div>
+          <div class="stat-icon-wrap">🏠</div>
+          <div class="stat-number"><span class="counter" data-target="10">0</span>+</div>
+          <div class="stat-label">Families Fed / Month</div>
+          <div class="stat-desc">Each system we build feeds over 10 local families monthly.</div>
+          <div class="stat-prog">
+            <div class="stat-fill" style="--fill:75%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR STORY -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="section-label reveal-up">Origin Story</div>
+      <h2 class="section-title reveal-up">How a Classroom <span class="gradient-text">Became a Startup</span></h2>
+      <div class="story-grid">
+        <div class="story-timeline">
+          <div class="story-step reveal-left">
+            <div class="step-marker">
+              <div class="step-dot active"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-content glass-card">
+              <div class="step-tag">January 2025</div>
+              <div class="step-emoji">💡</div>
+              <h3>The Spark</h3>
+              <p>In the middle of a chemistry lesson, two students asked a question that changed everything: <em>"Why
+                  are we still farming the same way as 200 years ago?"</em> The idea of putting a working hydroponic
+                system inside a school wasn't just a class project — it was a bet on what food could look like in their
+                city.</p>
+            </div>
+          </div>
+          <div class="story-step reveal-left">
+            <div class="step-marker">
+              <div class="step-dot"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-content glass-card">
+              <div class="step-tag">February 2025</div>
+              <div class="step-emoji">🔩</div>
+              <h3>Building the First System</h3>
+              <p>With a small budget and zero experience in plumbing, Timur got to work with his hands. He measured,
+                drilled, connected pipes, and wrestled with grow lights. Karim ran nutrient calculations and researched
+                pH balances. Day one of testing — it leaked everywhere. They laughed, mopped up, and started over.</p>
+            </div>
+          </div>
+          <div class="story-step reveal-left">
+            <div class="step-marker">
+              <div class="step-dot"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="step-content glass-card">
+              <div class="step-tag">March 2025</div>
+              <div class="step-emoji">💥</div>
+              <h3>Failures That Taught Us Everything</h3>
+              <p>A bad supplier sent broken LED panels. The first microgreen batch turned yellow from nutrient
+                deficiency Karim diagnosed overnight. A pump failed twice at 11pm. Every failure taught us something the
+                internet never could — resilience, the value of real chemistry knowledge, and why you always keep a
+                spare pump.</p>
+            </div>
+          </div>
+          <div class="story-step reveal-left">
+            <div class="step-marker">
+              <div class="step-dot future"></div>
+            </div>
+            <div class="step-content glass-card glow-card">
+              <div class="step-tag">April 2025</div>
+              <div class="step-emoji">🚀</div>
+              <h3>HydraPo Is Born</h3>
+              <p>After months of rebuilding and growing, we harvested our first full crop. We opened the club to other
+                students, turned the lab into a living classroom, and transformed a broken classroom experiment into a
+                functioning startup. Today, HydraPo is not just a club — it is a movement.</p>
+            </div>
+          </div>
+        </div>
+        <div class="story-visual reveal-right">
+          <div class="sv-main">
+            <img src="assets/vertical_system.jpg" alt="HydraPo vertical system" class="sv-img" />
+            <div class="sv-chip glass-card">
+              <span>🌱</span>
+              <span>First successful harvest — 2025</span>
+            </div>
+          </div>
+          <div class="sv-secondary">
+            <img src="assets/hydro2.jpg" alt="Grow room" class="sv-img2" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW WE BUILT IT — TIMELINE -->
+  <section class="build-timeline" id="build">
+    <div class="container">
+      <div class="section-label reveal-up">Development Timeline</div>
+      <h2 class="section-title reveal-up">How We <span class="gradient-text">Built It</span></h2>
+      <div class="tl-wrapper">
+        <div class="tl-line"></div>
+        <div class="tl-steps">
+          <div class="tl-step reveal-up">
+            <div class="tl-dot"><span>01</span></div>
+            <div class="tl-card glass-card">
+              <div class="tl-icon">💰</div>
+              <div class="tl-date">Jan 2025</div>
+              <h3>Fundraising</h3>
+              <p>Pitched to school administration, wrote a proposal, applied for community grants. Secured starting
+                capital to turn the idea real.</p>
+            </div>
+          </div>
+          <div class="tl-step reveal-up">
+            <div class="tl-dot"><span>02</span></div>
+            <div class="tl-card glass-card">
+              <div class="tl-icon">📦</div>
+              <div class="tl-date">Feb 2025</div>
+              <h3>Equipment</h3>
+              <p>Researched systems, compared suppliers, placed first orders. Wrong LED panels arrived — reordered,
+                learned the hard way about supply chain.</p>
+            </div>
+          </div>
+          <div class="tl-step reveal-up">
+            <div class="tl-dot"><span>03</span></div>
+            <div class="tl-card glass-card">
+              <div class="tl-icon">🔧</div>
+              <div class="tl-date">Feb–Mar 2025</div>
+              <h3>Assembly</h3>
+              <p>Timur assembled pipes, shelving, pumps, and wiring by hand. Karim calibrated nutrient formulas. Aigul
+                guided the chemistry. Every bolt tightened ourselves.</p>
+            </div>
+          </div>
+          <div class="tl-step reveal-up">
+            <div class="tl-dot"><span>04</span></div>
+            <div class="tl-card glass-card">
+              <div class="tl-icon">🧪</div>
+              <div class="tl-date">Mar 2025</div>
+              <h3>Testing & Fixing</h3>
+              <p>pH rounds, nutrient calibration, light spectrum tuning. Pump failures, leaks, two batches of yellowed
+                seedlings. Every failure made the system stronger.</p>
+            </div>
+          </div>
+          <div class="tl-step reveal-up">
+            <div class="tl-dot active"><span>05</span></div>
+            <div class="tl-card glass-card tl-active">
+              <div class="tl-icon">🌟</div>
+              <div class="tl-date">Apr 2025 — Now</div>
+              <h3>Launch & Club</h3>
+              <p>First full harvest. Club opened. Students joined. HydraPo is live — supplying fresh produce, training
+                students, and scaling the mission.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW HYDROPONICS WORKS -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-label reveal-up">The Science</div>
+      <h2 class="section-title reveal-up">How <span class="gradient-text">Hydroponics</span> Works</h2>
+      <p class="section-sub reveal-up">No soil. No seasons. No limits. Precise science and controlled intention.</p>
+
+      <div class="science-bento">
+        <div class="sb-large reveal-up">
+          <img src="assets/hydro_diagram.png" alt="Hydroponic system diagram" class="sb-diagram" />
+          <div class="sb-overlay">
+            <h3>Closed-Loop Nutrient System</h3>
+            <p>Water never leaves the cycle. Zero waste. Continuous yield.</p>
+          </div>
+        </div>
+        <div class="sb-stack">
+          <div class="sb-item glass-card reveal-up">
+            <div class="sb-icon">🌊</div>
+            <div>
+              <h4>Water as Medium</h4>
+              <p>Roots sit directly in nutrient-rich water. Every mineral precisely calibrated.</p>
+            </div>
+          </div>
+          <div class="sb-item glass-card reveal-up">
+            <div class="sb-icon">⚗️</div>
+            <div>
+              <h4>Nutrient Solution</h4>
+              <p>Custom N-P-K blends absorbed 40% more efficiently than soil delivery.</p>
+            </div>
+          </div>
+          <div class="sb-item glass-card reveal-up">
+            <div class="sb-icon">💡</div>
+            <div>
+              <h4>Spectrum-Tuned LED</h4>
+              <p>Full-spectrum 18-hour cycles. Accelerates growth by up to 2× vs outdoor.</p>
+            </div>
+          </div>
+          <div class="sb-item glass-card reveal-up">
+            <div class="sb-icon">🌡️</div>
+            <div>
+              <h4>Controlled Environment</h4>
+              <p>Temperature, humidity, CO₂ monitored in real-time. Perfect conditions year-round.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Aquahydroponic Flow Diagram -->
+      <div class="flow-diagram reveal-up">
+        <div class="flow-title">Aquahydroponic Cycle — How It All Connects</div>
+        <div class="flow-row">
+          <div class="flow-node fn-light">
+            <div class="fn-icon">💡</div>
+            <span>LED Light</span>
+            <small>18h/day cycle</small>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node fn-plant">
+            <div class="fn-icon">🌿</div>
+            <span>Plants</span>
+            <small>In grow channels</small>
+          </div>
+          <div class="flow-arrow">→</div>
+          <div class="flow-node fn-roots">
+            <div class="fn-icon">🫀</div>
+            <span>Roots</span>
+            <small>Absorb nutrients</small>
+          </div>
+          <div class="flow-arrow">↓</div>
+          <div class="flow-node fn-water">
+            <div class="fn-icon">💧</div>
+            <span>Nutrient Water</span>
+            <small>pH 5.5–6.5</small>
+          </div>
+          <div class="flow-arrow">←</div>
+          <div class="flow-node fn-pump">
+            <div class="fn-icon">⚙️</div>
+            <span>Pump</span>
+            <small>Circulates loop</small>
+          </div>
+          <div class="flow-arrow">←</div>
+          <div class="flow-node fn-reservoir">
+            <div class="fn-icon">🏊</div>
+            <span>Reservoir</span>
+            <small>Replenished weekly</small>
+          </div>
+        </div>
+        <div class="flow-caption">♻️ Zero-waste closed loop. Water is recycled, never discarded.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT WE GROW -->
+  <section class="what-we-grow" id="grow">
+    <div class="container">
+      <div class="section-label reveal-up">The Harvest</div>
+      <h2 class="section-title reveal-up">What We <span class="gradient-text">Grow</span></h2>
+      <div class="crops-grid">
+        <div class="crop-card reveal-up">
+          <div class="crop-glow"></div>
+          <div class="crop-emoji">🌱</div>
+          <h3>Microgreens</h3>
+          <div class="growth-row">
+            <div class="growth-bar">
+              <div class="growth-fill" style="--w:95%"></div>
+            </div>
+            <span class="growth-days">7–14 days</span>
+          </div>
+          <p>Up to 40× more nutrients than mature greens. Fastest-growing crop — market-ready in two weeks.</p>
+          <div class="crop-tags">
+            <span>High demand</span><span>Fast yield</span>
+          </div>
+        </div>
+        <div class="crop-card reveal-up">
+          <div class="crop-glow"></div>
+          <div class="crop-emoji">🥗</div>
+          <h3>Arugula</h3>
+          <div class="growth-row">
+            <div class="growth-bar">
+              <div class="growth-fill" style="--w:80%"></div>
+            </div>
+            <span class="growth-days">21–30 days</span>
+          </div>
+          <p>Peppery and vibrant. Our arugula grows dense and bold under full-spectrum LEDs — a chef's favourite.</p>
+          <div class="crop-tags">
+            <span>Restaurant fav</span><span>High yield</span>
+          </div>
+        </div>
+        <div class="crop-card reveal-up">
+          <div class="crop-glow"></div>
+          <div class="crop-emoji">🥦</div>
+          <h3>Broccoli Sprouts</h3>
+          <div class="growth-row">
+            <div class="growth-bar">
+              <div class="growth-fill" style="--w:70%"></div>
+            </div>
+            <span class="growth-days">30–45 days</span>
+          </div>
+          <p>Rich in sulforaphane — a recognised cancer-fighting compound. One of the most nutritionally dense foods.
+          </p>
+          <div class="crop-tags">
+            <span>Superfood</span><span>High value</span>
+          </div>
+        </div>
+        <div class="crop-card reveal-up">
+          <div class="crop-glow"></div>
+          <div class="crop-emoji">🫘</div>
+          <h3>Beans</h3>
+          <div class="growth-row">
+            <div class="growth-bar">
+              <div class="growth-fill" style="--w:65%"></div>
+            </div>
+            <span class="growth-days">45–60 days</span>
+          </div>
+          <p>Protein-rich staple thriving in our vertical tower systems. Ideal for consistent school cafeteria supply.
+          </p>
+          <div class="crop-tags">
+            <span>Protein-rich</span><span>Scalable</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BUSINESS MODEL -->
+  <section class="business" id="business">
+    <div class="container">
+      <div class="section-label reveal-up">Startup Strategy</div>
+      <h2 class="section-title reveal-up">The <span class="gradient-text">Business Model</span></h2>
+      <p class="section-sub reveal-up">We're not just growing plants. We're building a scalable food infrastructure
+        company.</p>
+      <div class="biz-grid">
+        <div class="biz-card glass-card reveal-up">
+          <div class="biz-num">01</div>
+          <div class="biz-icon">🏫</div>
+          <h3>School Produce Supply</h3>
+          <p>Direct B2B sales to school cafeterias. Fresh, local, pesticide-free greens from on-site systems — zero
+            transport cost, maximum freshness.</p>
+          <div class="biz-badge active">Active</div>
+        </div>
+        <div class="biz-card glass-card reveal-up">
+          <div class="biz-num">02</div>
+          <div class="biz-icon">☕</div>
+          <h3>Café & Restaurant Expansion</h3>
+          <p>Premium micro-greens and specialty crops sold to local cafés and restaurants at premium pricing. Quality
+            and story over commodity.</p>
+          <div class="biz-badge planned">Planned</div>
+        </div>
+        <div class="biz-card glass-card reveal-up">
+          <div class="biz-num">03</div>
+          <div class="biz-icon">📦</div>
+          <h3>System Replication</h3>
+          <p>Our modular design replicates in any school or community. We sell, install, and maintain systems —
+            recurring revenue with direct impact.</p>
+          <div class="biz-badge scaling">Scaling</div>
+        </div>
+      </div>
+      <div class="pitch-strip glass-card reveal-up">
+        <div class="ps-item"><span>📈</span><span>Recurring Revenue</span></div>
+        <div class="ps-div"></div>
+        <div class="ps-item"><span>♻️</span><span>Sustainable by Design</span></div>
+        <div class="ps-div"></div>
+        <div class="ps-item"><span>🏙️</span><span>Urban Scalability</span></div>
+        <div class="ps-div"></div>
+        <div class="ps-item"><span>🌍</span><span>Global Model</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CLUB -->
+  <section class="education" id="education">
+    <div class="container">
+      <div class="edu-top">
+        <div class="section-label reveal-up">Club & Education</div>
+        <h2 class="section-title reveal-up">Where Future <span class="gradient-text">Innovators</span> Learn</h2>
+        <p class="section-sub reveal-up">HydraPo isn't just a startup — it's a living classroom. Students learn science,
+          business, and real-world problem-solving by actually doing it.</p>
+      </div>
+      <div class="edu-photos">
+        <div class="ep-main reveal-up">
+          <img src="assets/students_teaching.jpg" alt="Karim teaching students" />
+          <div class="ep-chip glass-card">🎓 Club session in progress</div>
+        </div>
+        <div class="ep-stack">
+          <div class="ep-card reveal-up">
+            <img src="assets/student_notes.jpg" alt="Student recording data" />
+            <div class="ep-label">Students track growth data daily</div>
+          </div>
+          <div class="ep-card reveal-up">
+            <img src="assets/student_seeding.jpg" alt="Student doing seeding" />
+            <div class="ep-label">Hands-on seeding and potting</div>
+          </div>
+        </div>
+      </div>
+      <div class="edu-pillars">
+        <div class="ep-pillar glass-card reveal-up">
+          <div class="ep-icon">🔬</div>
+          <h4>Hands-On Science</h4>
+          <p>Students operate real systems, run pH experiments, and track plant data in real-time.</p>
+        </div>
+        <div class="ep-pillar glass-card reveal-up">
+          <div class="ep-icon">💼</div>
+          <h4>Business Education</h4>
+          <p>From pitch decks to supply chains — students learn entrepreneurship by doing it.</p>
+        </div>
+        <div class="ep-pillar glass-card reveal-up">
+          <div class="ep-icon">🌿</div>
+          <h4>Sustainability Mindset</h4>
+          <p>We train environmental stewards who understand the food crisis from the inside.</p>
+        </div>
+        <div class="ep-pillar glass-card reveal-up">
+          <div class="ep-icon">📊</div>
+          <h4>Real-World Experience</h4>
+          <p>Students manage operations, budgets, and real customer relationships.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPERATIONS -->
+  <section class="operations" id="operations">
+    <div class="container">
+      <div class="section-label reveal-up">Our Systems</div>
+      <h2 class="section-title reveal-up">How We <span class="gradient-text">Operate</span></h2>
+      <div class="ops-bento">
+        <div class="ob-large reveal-up">
+          <img src="assets/hydro2.jpg" alt="Full grow room" class="ob-img" />
+          <div class="ob-tag glass-card">🏠 Our Main Lab</div>
+        </div>
+        <div class="ob-grid">
+          <div class="ob-cell glass-card reveal-up">
+            <div class="oc-icon">🗄️</div>
+            <h4>Cabinet Systems</h4>
+            <p>Self-contained vertical units. 4 shelves, LED-tuned, automated watering.</p>
+          </div>
+          <div class="ob-cell glass-card reveal-up">
+            <div class="oc-icon">🏊</div>
+            <h4>Pool Systems</h4>
+            <p>Deep water culture pools. High-volume leafy greens for school supply.</p>
+          </div>
+          <div class="ob-cell glass-card reveal-up">
+            <div class="oc-icon">🏗️</div>
+            <h4>Vertical Systems</h4>
+            <p>Tower farms — 3× plants per m². Wall-mountable, space-maximising.</p>
+          </div>
+          <div class="ob-cell glass-card reveal-up">
+            <div class="oc-icon">📊</div>
+            <h4>Plant Tracking</h4>
+            <p>Every plant logged from seed to harvest: dates, nutrients, yield data.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-label reveal-up">The People</div>
+      <h2 class="section-title reveal-up">Who's Building <span class="gradient-text">HydraPo</span></h2>
+      <div class="team-grid">
+
+        <!-- Timur -->
+        <div class="team-card reveal-up" id="team-timur">
+          <div class="tc-img-wrap">
+            <img src="assets/timur.jpg" alt="Rashidov Timur" class="tc-img" />
+            <div class="tc-img-fade"></div>
+          </div>
+          <div class="tc-body glass-card">
+            <div class="tc-meta">
+              <h3>Rashidov Timur</h3>
+              <div class="tc-role">Co-Founder & CEO</div>
+            </div>
+            <p class="tc-bio">Timur is the hands-on force behind HydraPo. The one who picks up the drill, fixes the pump
+              at midnight, re-routes the plumbing, and builds the systems from scratch. An ideas guy who turns visions
+              into physical reality — if something is broken, Timur will fix it before anyone else wakes up. He leads
+              product development, system design, and keeps operations running with his sleeves rolled up.</p>
+            <div class="tc-tags">
+              <span>Systems Builder</span><span>Operations</span><span>Product</span>
+            </div>
+            <div class="tc-contact">
+              <a href="mailto:trasidov468@gmail.com" class="tc-link">trasidov468@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Karim -->
+        <div class="team-card reveal-up" id="team-karim">
+          <div class="tc-img-wrap">
+            <img src="assets/karim.jpg" alt="Abdikerimov Karim" class="tc-img" />
+            <div class="tc-img-fade"></div>
+          </div>
+          <div class="tc-body glass-card">
+            <div class="tc-meta">
+              <h3>Abdikerimov Karim</h3>
+              <div class="tc-role">Co-Founder & Chief Science Officer</div>
+            </div>
+            <p class="tc-bio">Karim is HydraPo's scientific brain. A dedicated chemistry student, he brings rigorous
+              academic thinking to every problem — designing nutrient formulas, diagnosing plant deficiencies from pH
+              data, and running controlled experiments on growth cycles. When the plants turn yellow, Karim already
+              knows why. He transforms hard science into living systems that actually produce food.</p>
+            <div class="tc-tags">
+              <span>Chemistry</span><span>Nutrient Science</span><span>R&D</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Aigul -->
+        <div class="team-card reveal-up" id="team-aigul">
+          <div class="tc-img-wrap">
+            <img src="assets/aigul.jpg" alt="Aigul Zhumashevna Kazimova" class="tc-img tc-img-top" />
+            <div class="tc-img-fade"></div>
+          </div>
+          <div class="tc-body glass-card">
+            <div class="tc-meta">
+              <h3>Aigul Zhumashevna Kazimova</h3>
+              <div class="tc-role">Partner · Scientific Advisor</div>
+            </div>
+            <p class="tc-bio">Candidate of Chemical Sciences and Honored Worker of Education and Science of the Republic
+              of Kazakhstan. With decades of expertise as a Chemistry and Science teacher, Aigul is the scientific
+              foundation that makes HydraPo world-class. Her mentorship turns ambitious students into rigorous
+              researchers. She doesn't just teach — she proves that the next generation of innovators is already here.
+            </p>
+            <div class="tc-tags">
+              <span>Chemical Sciences Ph.D</span><span>Honored Educator</span><span>Mentor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUTURE VISION -->
+  <section class="vision" id="vision">
+    <div class="container">
+      <div class="section-label reveal-up">Future Vision</div>
+      <h2 class="section-title reveal-up">We're Just <span class="gradient-text">Getting Started</span></h2>
+      <p class="section-sub reveal-up">The school lab was Phase 1. Here's where this goes.</p>
+      <div class="vision-cards">
+        <div class="vc-card glass-card reveal-up vc-active">
+          <div class="vc-phase">NOW · 2025</div>
+          <div class="vc-icon">🏫</div>
+          <h3>School Systems</h3>
+          <p>Running active hydroponics in our school. Supplying fresh produce and training the next generation of
+            growers and thinkers.</p>
+          <div class="vc-dot active"></div>
+        </div>
+        <div class="vc-card glass-card reveal-up">
+          <div class="vc-phase">NEXT · 2025–2026</div>
+          <div class="vc-icon">🏙️</div>
+          <h3>City Expansion</h3>
+          <p>Deploy in 5+ schools across the city. Partner with local restaurants. Build a community-supported
+            agriculture network.</p>
+          <div class="vc-dot"></div>
+        </div>
+        <div class="vc-card glass-card reveal-up">
+          <div class="vc-phase">SCALE · 2026–2027</div>
+          <div class="vc-icon">🇰🇿</div>
+          <h3>National Network</h3>
+          <p>License our modular systems nationwide. Launch a training programme for student entrepreneurs across
+            Kazakhstan.</p>
+          <div class="vc-dot"></div>
+        </div>
+        <div class="vc-card glass-card reveal-up vc-bold">
+          <div class="vc-phase">BEYOND</div>
+          <div class="vc-icon">🌍</div>
+          <h3>Urban Food Infrastructure</h3>
+          <p>HydraPo as the global standard for school-embedded food systems. Make local growing the default, not the
+            exception.</p>
+          <div class="vc-dot future"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-label reveal-up">Gallery</div>
+      <h2 class="section-title reveal-up">Inside <span class="gradient-text">HydraPo</span></h2>
+      <div class="gallery-masonry">
+        <div class="gm-item gm-tall reveal-up">
+          <img src="assets/vertical_system.jpg" alt="Vertical grow system" />
+          <div class="gm-label">Vertical system — 4 shelves, multi-crop</div>
+        </div>
+        <div class="gm-item reveal-up">
+          <img src="assets/hydro2.jpg" alt="Main grow room" />
+          <div class="gm-label">Main grow room</div>
+        </div>
+        <div class="gm-item reveal-up">
+          <img src="assets/students_teaching.jpg" alt="Club session" />
+          <div class="gm-label">Club session — co-founders teaching</div>
+        </div>
+        <div class="gm-item reveal-up">
+          <img src="assets/student_notes.jpg" alt="Student recording growth data" />
+          <div class="gm-label">Recording growth data</div>
+        </div>
+        <div class="gm-item reveal-up">
+          <img src="assets/student_seeding.jpg" alt="Student seeding" />
+          <div class="gm-label">Hands-on seeding process</div>
+        </div>
+        <div class="gm-item reveal-up">
+          <img src="assets/hydro1.jpg" alt="Lettuce system" />
+          <div class="gm-label">Lettuce DWC system — harvest ready</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-final" id="contact">
+    <div class="cta-glow-bg"></div>
+    <div class="container">
+      <div class="cta-inner">
+        <div class="section-label reveal-up">Get Involved</div>
+        <h2 class="cta-headline reveal-up">Be Part of the <span class="gradient-text">Revolution</span></h2>
+        <p class="cta-sub reveal-up">Whether you're a student, investor, school, or restaurant — there's a place for you
+          in HydraPo.</p>
+        <div class="cta-cards">
+          <div class="cta-card glass-card reveal-up">
+            <div class="cta-icon">🎒</div>
+            <h3>Join HydraPo</h3>
+            <p>Become a club member and be part of the food revolution from day one.</p>
+            <a href="tel:+77475064232" class="btn btn-ghost" id="cta-join">+7 747 506 4232</a>
+          </div>
+          <div class="cta-card glass-card cta-featured reveal-up">
+            <div class="cta-glow-ring"></div>
+            <div class="cta-icon">🤝</div>
+            <h3>Partner With Us</h3>
+            <p>Restaurants, cafés, investors, and institutions — let's grow together and scale globally.</p>
+            <a href="mailto:trasidov468@gmail.com" class="btn btn-primary" id="cta-partner">trasidov468@gmail.com</a>
+          </div>
+          <div class="cta-card glass-card reveal-up">
+            <div class="cta-icon">🏫</div>
+            <h3>Bring HydraPo to Your School</h3>
+            <p>We install, train, and support a complete hydroponic system in your institution.</p>
+            <a href="tel:+77475064232" class="btn btn-ghost" id="cta-school">Call Us Now</a>
+          </div>
+        </div>
+        <div class="cta-contact-strip reveal-up">
+          <a href="tel:+77475064232" class="ccs-item">
+            <span class="ccs-icon">📞</span>
+            <span>+7 747 506 4232</span>
+          </a>
+          <div class="ccs-div"></div>
+          <a href="mailto:trasidov468@gmail.com" class="ccs-item">
+            <span class="ccs-icon">✉️</span>
+            <span>trasidov468@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-mark">
+              <div class="logo-ring"></div>
+              <div class="logo-dot-inner"></div>
+            </div>
+            <span class="logo-text">HydraPo</span>
+          </div>
+          <p>Grown by students.<br />Powered by science.<br />Scalable by design.</p>
+          <div class="footer-contact">
+            <a href="tel:+77475064232">+7 747 506 4232</a>
+            <a href="mailto:trasidov468@gmail.com">trasidov468@gmail.com</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="#story">Our Story</a>
+            <a href="#how-it-works">Science</a>
+            <a href="#grow">What We Grow</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#business">Business Model</a>
+            <a href="#team">Team</a>
+            <a href="#vision">Vision</a>
+            <a href="#education">Club</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 HydraPo · Born in Kazakhstan. Built for the world.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
